@@ -155,7 +155,7 @@
   });
 
   /**
-   * Preloader
+   * Preloader 
    */
   let preloader = select('#preloader');
   if (preloader) {
