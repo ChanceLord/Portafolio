@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  
+  background-color: #557153;
   color: #444444;
 }
 
@@ -113,11 +113,12 @@ a:hover {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+ 
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #0000005e;
 }
 
 #header .logo {
@@ -146,6 +147,7 @@ a:hover {
 */
 .navbar {
   padding: 0;
+ 
 }
 
 .navbar ul {
@@ -580,6 +582,7 @@ section {
 .clients {
   padding: 12px 0;
   text-align: center;
+ 
 }
 
 .clients img {
@@ -1618,7 +1621,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  background: #7D8F69;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1660,12 +1663,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+ 
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background-color: #7D8F69;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -1718,7 +1721,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background-color: #7D8F69;
 }
 
 #footer .footer-top .footer-contact {
