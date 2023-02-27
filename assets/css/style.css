@@ -37,12 +37,13 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
+  left: 1%;
   visibility: hidden;
   opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: #f7a502;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -59,6 +60,7 @@ h6 {
   background: #151515;
 }
 
+
 .back-to-top:hover i {
   color: #ffc451;
 }
@@ -68,6 +70,38 @@ h6 {
   opacity: 1;
 }
 
+
+.back-to-top-2 {
+  position: fixed; 
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #14e00d;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top-2 i{
+  font-size: 28px;
+  color: #e90000;
+  line-height: 0;
+}
+
+.back-to-top-2:hover {
+  background: #151515;
+}
+
+
+.back-to-top-2:hover i {
+  color: #ffc451;
+}
+
+.back-to-top-2.active {
+  visibility: visible;
+  opacity: 1;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
