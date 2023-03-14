@@ -540,6 +540,16 @@ section {
   color: whitesmoke;
 }
 
+/*--------------------------------------------------------------
+# clients
+--------------------------------------------------------------*/
+.clients h2{
+  color: whitesmoke;
+}
+
+.clients h3{
+  color: whitesmoke;
+}
 
 /*--------------------------------------------------------------
 # Features
@@ -635,8 +645,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
+  background: #073961;
+  border-color: #073961;
   color: #151515;
 }
 
