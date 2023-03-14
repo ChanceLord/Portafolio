@@ -232,12 +232,7 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
+
 
 .navbar a:hover,
 .navbar .active,
@@ -425,7 +420,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #000;;
+  background:url('../img/board.jpeg');
   background-size: cover;
   position: relative;
 }
@@ -578,7 +573,7 @@ section {
 --------------------------------------------------------------*/
 
 .services{
-  background: #0b490c54;
+  background: #151515;
 }
 
 
@@ -587,7 +582,7 @@ section {
   border: 1px solid #000000dc;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #020202ad;
+  
 }
 
 .services .icon-box:hover {
